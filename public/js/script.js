@@ -1,16 +1,49 @@
+    
+const SidePanelEnum = {"FURNITURE":1, "ROOM":2, "FLOOR":3, "WALL":4,}
+Object.freeze(SidePanelEnum)
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log("content loaded");
     var elems = document.querySelectorAll('.sidenav');
     var instances = M.Sidenav.init(elems);
     //instances.open();
+
+    document.addEventListener('touchmove', function (event) {
+        if (event.scale !== 1) { event.preventDefault(); }
+    }, false);
 });
 
-function closeSesame() {
-    // bottomnav show/hide animation
+function setSidePanel(index) {
+    var furn_panel = document.getElementById('furn-catalog');
+    var room_panel = document.getElementById('room-catalog');
+    var floor_panel = document.getElementById('floor-catalog');
+    var wall_panel = document.getElementById('wall-catalog');
+    furn_panel.style.display = (index === 1)?"block":"none";
+    room_panel.style.display = (index === 2)?"block":"none";
+    floor_panel.style.display = (index === 3)?"block":"none";
+    wall_panel.style.display = (index === 4)?"block":"none";
+}
+
+function showSideNav() {
+    var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.getInstance(elem);
+    instance.open();
+}
+
+function showSidePanel(panelId) {
+    if(panelId === "FURNITURE") setSidePanel(SidePanelEnum.FURNITURE);
+    if(panelId === "ROOM") setSidePanel(SidePanelEnum.ROOM);
+    if(panelId === "FLOOR") setSidePanel(SidePanelEnum.FLOOR);
+    if(panelId === "WALL") setSidePanel(SidePanelEnum.WALL);
+    showSideNav();
+}
+
+function setBottomNav(mode = 0) {
     var div = document.querySelector('.bottomnav');
-    if(div.classList.contains("bottomnav-show")) {
-        div.classList.remove("bottomnav-show");
+    if(mode === 0) {
+        if(div.classList.contains("bottomnav-show")) {
+            div.classList.remove("bottomnav-show");
+        }
         div.classList.add("bottomnav-hide");
     } else {
         if(div.classList.contains("bottomnav-hide")) {
@@ -20,42 +53,18 @@ function closeSesame() {
     }
 }
 
-function openSesame() {
-
-    // sidenav show/hide animation
-    var elem = document.querySelector('.sidenav');
-    var instance = M.Sidenav.getInstance(elem);
-    instance.open();
-    
-    // this test
-    var div = document.getElementById("non-existent");
-    if(div) {
-        console.log("item not found")
-        var txt = div.innerHTML.toString();
-        var n = txt.indexOf("/");
-        var s = "";
-        if(n >= 0) {
-            s = txt.substr(n + 1);
-        }
-        if(s.length === 0) {
-            s = s + s.length;
-        }
-        console.log("end test");
+function showBottomNav() {
+    var div = document.querySelector('.bottomnav');
+    if(div.classList.contains("bottomnav-hide")) {
+        div.classList.remove("bottomnav-hide");
     }
+    div.classList.add("bottomnav-show");
+}
 
-    /*
-    var btn = document.querySelector('.btn-tab-nav');
-    if(btn) {
-        if(btn.classList.contains("btn-nav-show")) {
-            btn.classList.remove("btn-nav-show");
-            btn.classList.add("btn-nav-hide");
-        } else {
-            if(btn.classList.contains("btn-nav-hide")) {
-                btn.classList.remove("btn-nav-hide");
-            }
-            btn.classList.add("btn-nav-show");
-        }
+function hideBottomNav() {
+    var div = document.querySelector('.bottomnav');
+    if(div.classList.contains("bottomnav-show")) {
+        div.classList.remove("bottomnav-show");
     }
-    */
-    
+    div.classList.add("bottomnav-hide");
 }

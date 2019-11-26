@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<furniture id="furn_mdn0099" name="furn_mdn0099" type="furn">
+<summary>
+<name>Chair 2</name>
+<default_id>01</default_id>
+<product_id>s0001+n0001</product_id>
+<resize>no</resize>
+<thumb>png</thumb>
+</summary>
+<variations>
+<variation id="mdn0099_01" name="Color">
+<item pattern="mdn0099" suffix="01.jpg">mdn0099_atrno</item>
+</variation>
+</variations>
+<materials>
+
+<material id="mdn0099_01" name="Color">
+<item code="0xs0001+n0001" value="0x01" type="1" map="mdn0099_01_01" alt="Pink">mdn0099-01_01</item>
+<item code="0xs0001+n0002" value="0x02" type="1" map="mdn0099_01_02" alt="Green">mdn0099-01_02</item>
+<item code="0xs0001+n0003" value="0x03" type="1" map="mdn0099_01_03" alt="Gray">mdn0099-01_03</item>
+</material>
+
+<material id="mdn0099_01_01" name="mdn0099_01_01">
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_00</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_01</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_02</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_03</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_04</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_05</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_06</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_07</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_08</item>
+<item mat="texture:mdn0099-01_01_01.jpg">mdn0099_09</item>
+</material>
+<material id="mdn0099_01_02" name="mdn0099_01_02">
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_00</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_01</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_02</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_03</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_04</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_05</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_06</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_07</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_08</item>
+<item mat="texture:mdn0099-01_02_01.jpg">mdn0099_09</item>
+</material>
+<material id="mdn0099_01_03" name="mdn0099_01_03">
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_00</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_01</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_02</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_03</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_04</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_05</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_06</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_07</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_08</item>
+<item mat="texture:mdn0099-01_03_01.jpg">mdn0099_09</item>
+</material>
+</materials>
+</furniture>

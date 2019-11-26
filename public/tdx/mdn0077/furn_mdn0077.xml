@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<furniture id="furn_mdn0077" name="furn_mdn0077" type="furn">
+<summary>
+<name>Sofa 2P</name>
+<default_id>01</default_id>
+<product_id>s0001+n0001</product_id>
+<resize>no</resize>
+<thumb>png</thumb>
+</summary>
+<variations>
+<variation id="mdn0077_01" name="Fabric Color">
+<item pattern="mdn0077" suffix="01.jpg">mdn0077_atrno</item>
+</variation>
+</variations>
+<materials>
+
+<material id="mdn0077_01" name="Fabric Color">
+<item code="0xs0001+n0001" value="0x01" type="1" map="mdn0077_01_01" alt="Dark Gray">mdn0077-01_01</item>
+<item code="0xs0001+n0002" value="0x02" type="1" map="mdn0077_01_02" alt="Light Gray">mdn0077-01_02</item>
+</material>
+
+<material id="mdn0077_01_01" name="mdn0077_01_01">
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff01.jpg">mdn0077_01</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff02.jpg">mdn0077_02</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff03.jpg">mdn0077_03</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff04.jpg">mdn0077_04</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff01.jpg">mdn0077_05</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff02.jpg">mdn0077_06</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff03.jpg">mdn0077_07</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff08.jpg">mdn0077_08</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff10.jpg">mdn0077_10</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffa01.jpg">mdn0077_a01</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffa02.jpg">mdn0077_a02</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffa03.jpg">mdn0077_a03</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffa04.jpg">mdn0077_a04</item>
+<item mat="texture:mdn0077-01_01_01.jpg">mdn0077_a05</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff10.jpg">mdn0077_a06</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb01.jpg">mdn0077_b01</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb02.jpg">mdn0077_b02</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb03.jpg">mdn0077_b03</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb03.jpg">mdn0077_b04</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb05.jpg">mdn0077_b05</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffb03.jpg">mdn0077_b06</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffc01.jpg">mdn0077_c01</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffc03.jpg">mdn0077_c02</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffc04.jpg">mdn0077_c03</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffc03.jpg">mdn0077_c04</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diffc05.jpg">mdn0077_c05</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff04.jpg">mdn0077_line</item>
+<item mat="texture:mdn0077-01_01_01.jpg;diffuse:mdn0077_01_diff04.jpg">mdn0077_line1</item>
+</material>
+<material id="mdn0077_01_02" name="mdn0077_01_02">
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff01.jpg">mdn0077_01</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff02.jpg">mdn0077_02</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff03.jpg">mdn0077_03</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff04.jpg">mdn0077_04</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff01.jpg">mdn0077_05</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff02.jpg">mdn0077_06</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff03.jpg">mdn0077_07</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff08.jpg">mdn0077_08</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff10.jpg">mdn0077_10</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffa01.jpg">mdn0077_a01</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffa02.jpg">mdn0077_a02</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffa03.jpg">mdn0077_a03</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffa04.jpg">mdn0077_a04</item>
+<item mat="texture:mdn0077-01_02_01.jpg">mdn0077_a05</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff10.jpg">mdn0077_a06</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb01.jpg">mdn0077_b01</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb02.jpg">mdn0077_b02</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb03.jpg">mdn0077_b03</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb03.jpg">mdn0077_b04</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb05.jpg">mdn0077_b05</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffb03.jpg">mdn0077_b06</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffc01.jpg">mdn0077_c01</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffc03.jpg">mdn0077_c02</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffc04.jpg">mdn0077_c03</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffc03.jpg">mdn0077_c04</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diffc05.jpg">mdn0077_c05</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff04.jpg">mdn0077_line</item>
+<item mat="texture:mdn0077-01_02_01.jpg;diffuse:mdn0077_02_diff04.jpg">mdn0077_line1</item>
+</material>
+</materials>
+</furniture>

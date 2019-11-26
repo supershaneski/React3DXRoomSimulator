@@ -1,0 +1,12 @@
+{
+    "items":[
+        { "id": "dmn0040", "name": "TV Board", "price": 50000 },
+        { "id": "frc1507", "name": "Dining Table", "price": 60000 },
+        { "id": "mdn0050", "name": "Lounge Chair", "price": 55000 },
+        { "id": "mdn0073", "name": "Side Table", "price": 32000 },
+        { "id": "mdn0077", "name": "Sofa 2P", "price": 125000 },
+        { "id": "mdn0101", "name": "Chair 1", "price": 75000 },
+        { "id": "mdn0099", "name": "Chair 2", "price": 82000 },
+        { "id": "mdn0100", "name": "Office Chair", "price": 66000 }
+    ]
+}

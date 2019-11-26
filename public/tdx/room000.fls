@@ -1,0 +1,18 @@
+//FLS file v1.02
+flsname=test
+camerainfo=[{"dist":285,"pos":[0,150,285],"rot":[0,0,0]}]
+nofile=1
+noobj=0
+noatr=0
+filename=""
+	generate=room2
+	camerapos=0.000,150.000,285.000
+	camerarot=0.000
+	madorimodule=0
+	madoripitch=10
+	tatamisize=1.820
+	walls2=[{"attr":{"b":{"spc":"nospec.jpg","tex":"wall_00.jpg"},"c":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"f":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"l":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"r":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"t":{"spc":"nospec.jpg","tex":"wall_00.jpg"}},"height":240,"name":"wall_000","pts":[0,1],"thick":14,"width":400},{"attr":{"b":{"spc":"nospec.jpg","tex":"wall_00.jpg"},"c":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"f":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"l":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"r":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"t":{"spc":"nospec.jpg","tex":"wall_00.jpg"}},"height":240,"name":"wall_001","pts":[1,2],"thick":14,"width":400},{"attr":{"b":{"spc":"nospec.jpg","tex":"wall_00.jpg"},"c":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"f":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"l":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"r":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"t":{"spc":"nospec.jpg","tex":"wall_00.jpg"}},"height":240,"name":"wall_002","pts":[2,3],"thick":14,"width":400},{"attr":{"b":{"spc":"nospec.jpg","tex":"wall_00.jpg"},"c":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"f":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"l":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"r":{"bheight":8,"bspc":"nospec.jpg","btex":"sam1033_02.jpg","spc":"nospec.jpg","tex":"wall_00.jpg"},"t":{"spc":"nospec.jpg","tex":"wall_00.jpg"}},"height":240,"name":"wall_003","pts":[3,0],"thick":14,"width":400}]
+	floors2=[{"name":"floor00","pts":[0,1,2,3],"ref":5,"tex":"floor_01.jpg"}]
+	ceilings2=[{"height":240,"name":"ceiling00","pts":[0,1,2,3],"tex":"wall_00.jpg"}]
+	points2=[[-200,-200],[200,-200],[200,200],[-200,200]]
+	3dtname="./madori.3dt"

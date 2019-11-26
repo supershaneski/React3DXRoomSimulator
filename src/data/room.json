@@ -1,0 +1,7 @@
+{
+    "items":[
+        { "id": "room003", "name": "Studio 1" },
+        { "id": "room004", "name": "Studio 2" },
+        { "id": "room005", "name": "Studio 3" }
+    ]
+}

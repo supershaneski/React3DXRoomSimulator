@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<furniture id="furn_mdn0100" name="furn_mdn0100" type="furn">
+<summary>
+<name>Office Chair</name>
+<default_id>01</default_id>
+<product_id>s0001+n0001</product_id>
+<resize>no</resize>
+<thumb>png</thumb>
+</summary>
+<variations>
+<variation id="mdn0100_01" name="Color">
+<item pattern="mdn0100" suffix="01.jpg">mdn0100_atrno</item>
+</variation>
+</variations>
+<materials>
+
+<material id="mdn0100_01" name="Color">
+<item code="0xs0001+n0001" value="0x01" type="1" map="mdn0100_01_01" alt="Black">mdn0100-01_01</item>
+<item code="0xs0001+n0002" value="0x02" type="1" map="mdn0100_01_02" alt="White">mdn0100-01_02</item>
+</material>
+
+<material id="mdn0100_01_01" name="mdn0100_01_01">
+<item mat="texture:mdn0100-01_01_01.jpg">mdn0100_01</item>
+</material>
+<material id="mdn0100_01_02" name="mdn0100_01_02">
+<item mat="texture:mdn0100-01_02_01.jpg">mdn0100_01</item>
+</material>
+</materials>
+</furniture>

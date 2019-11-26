@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<furniture id="furn_frc1507" name="furn_frc1507" type="furn">
+<summary>
+<name>Dining Table</name>
+<default_id>01</default_id>
+<product_id></product_id>
+<resize>no</resize>
+<thumb>png</thumb>
+</summary>
+</furniture>
