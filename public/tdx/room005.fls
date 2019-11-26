@@ -19,6 +19,7 @@ filename="./door_04.3dx"
 	objid=0
 		towall=3
 		pos=-87.195,0.000,0.000
+		rot=0.000,180.000,0.000
 		locked=true
 		collision=false
 filename="./wnd3_hakidashi.3dx"

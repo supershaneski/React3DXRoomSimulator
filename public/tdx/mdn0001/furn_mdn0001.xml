@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<furniture id="furn_mdn0001" name="furn_mdn0001" type="furn">
+<summary>
+<name>ドーノ チェア</name>
+<default_id>01</default_id>
+<product_id>s0001+n0001</product_id>
+<resize>no</resize>
+<thumb>png</thumb>
+</summary>
+<variations>
+<variation id="mdn0001_01" name="Seat Color">
+<item pattern="mdn0001" suffix="01.jpg">mdn0001_atrno</item>
+</variation>
+</variations>
+<materials>
+<material id="mdn0001_01" name="Seat Color" type="idee">
+<group name="">
+<grade name="">
+<item code="0xs0001+n0001" value="0x01" type="1" map="mdn0001_01_01" alt="White">mdn0001-01_01</item>
+<item code="0xs0001+n0002" value="0x02" type="1" map="mdn0001_01_02" alt="Gray">mdn0001-01_02</item>
+</grade>
+</group>
+</material>
+<material id="mdn0001_01_01" name="mdn0001_01_01">
+<item mat="texture:mdn0001-01_01_02.jpg">mdn0001_01</item>
+<item mat="texture:mdn0001-01_01_02.jpg">mdn0001_02</item>
+<item mat="texture:mdn0001-01_01_02.jpg">mdn0001_03</item>
+<item mat="texture:mdn0001-01_01_02.jpg">mdn0001_04</item>
+<item mat="texture:mdn0001-01_01_02.jpg">mdn0001_05</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_06</item>
+<item mat="texture:mdn0001-01_01_03.jpg">mdn0001_06a</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_07</item>
+<item mat="texture:mdn0001-01_01_03.jpg">mdn0001_07a</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_08</item>
+<item mat="texture:mdn0001-01_01_03.jpg">mdn0001_08a</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_08b</item>
+<item mat="texture:mdn0001-01_01_03.jpg">mdn0001_08c</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_09</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_10</item>
+<item mat="texture:mdn0001-01_01_01.jpg">mdn0001_11</item>
+</material>
+<material id="mdn0001_01_02" name="mdn0001_01_02">
+<item mat="texture:mdn0001-01_02_02.jpg">mdn0001_01</item>
+<item mat="texture:mdn0001-01_02_02.jpg">mdn0001_02</item>
+<item mat="texture:mdn0001-01_02_02.jpg">mdn0001_03</item>
+<item mat="texture:mdn0001-01_02_02.jpg">mdn0001_04</item>
+<item mat="texture:mdn0001-01_02_02.jpg">mdn0001_05</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_06</item>
+<item mat="texture:mdn0001-01_02_03.jpg">mdn0001_06a</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_07</item>
+<item mat="texture:mdn0001-01_02_03.jpg">mdn0001_07a</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_08</item>
+<item mat="texture:mdn0001-01_02_03.jpg">mdn0001_08a</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_08b</item>
+<item mat="texture:mdn0001-01_02_03.jpg">mdn0001_08c</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_09</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_10</item>
+<item mat="texture:mdn0001-01_02_01.jpg">mdn0001_11</item>
+</material>
+</materials>
+</furniture>

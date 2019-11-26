@@ -7,6 +7,12 @@
         { "id": "mdn0077", "name": "Sofa 2P", "price": 125000 },
         { "id": "mdn0101", "name": "Chair 1", "price": 75000 },
         { "id": "mdn0099", "name": "Chair 2", "price": 82000 },
-        { "id": "mdn0100", "name": "Office Chair", "price": 66000 }
+        { "id": "mdn0100", "name": "Office Chair", "price": 66000 },
+        { "id": "mdn0001", "name": "Lounge Chair", "price": 12000 },
+        { "id": "mdn0024", "name": "Center Table", "price": 13000 },
+        { "id": "mdn0027", "name": "Cabinet", "price": 14000 },
+        { "id": "mdn0028", "name": "TV Cabinet", "price": 15000 },
+        { "id": "mdn0052", "name": "Dining Table", "price": 16000 },
+        { "id": "mdn0055", "name": "Side Table", "price": 18000 }
     ]
 }

@@ -32,7 +32,7 @@ function Walls(props) {
   });
   return (
     <ul id="wall-catalog" className="furn-list">
-      <li><a className="subheader">Select a wall material</a></li>
+      <li><a className="subheader">Select Wall</a></li>
       {roomlist}
     </ul>        
   )
@@ -60,7 +60,7 @@ function Rooms(props) {
   });
   return (
     <ul id="room-catalog" className="furn-list">
-      <li><a className="subheader">Select room to load</a></li>
+      <li><a className="subheader">Select Room</a></li>
       {roomlist}
     </ul>        
   )
@@ -97,7 +97,7 @@ function Floor(props) {
 
   return (
     <ul id="floor-catalog" className="furn-list">
-      <li><a className="subheader">Select floor material</a></li>
+      <li><a className="subheader">Select Floor</a></li>
       {flooritems}
     </ul>
   )
@@ -132,7 +132,7 @@ function Furniture(props) {
 
   return (
     <ul id="furn-catalog" className="furn-list">
-      <li><a className="subheader">Select furniture to add</a></li>
+      <li><a className="subheader">Select Furniture</a></li>
       { furnitems }
     </ul>
   )

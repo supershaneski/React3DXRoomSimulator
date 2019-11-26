@@ -103,7 +103,6 @@ function BottomNav(props) {
               variationExist && <Variations onClick={props.onVariationClick} productId={sid} selected={selected} />
             }
           </div>
-
         </div>
       </div>
     )

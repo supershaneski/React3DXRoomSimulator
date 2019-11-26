@@ -3419,6 +3419,7 @@ function setApplyFloor(data) {
 event handlers
 */
 function TdxOnInitialized(){
+  
   //console.log("ONINITIALIZED");
 
   tdx_InitControl1();
@@ -3428,6 +3429,7 @@ function TdxOnInitialized(){
 }
 
 function TdxOnLoad(){
+  
   //console.log("TDXONLOAD");
   
   var tdx = document.getElementById("Control1");
@@ -3485,6 +3487,7 @@ function TdxOnLoad(){
     }
   },100);
   */
+
   var param = {
     event:'OnLoad',
     args:''
