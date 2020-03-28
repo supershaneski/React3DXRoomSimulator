@@ -1,4 +1,13 @@
+React3DXRoomSimulator
+================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+![Screenshot](docs/screenshot.png)
+
+This is a sample 3D room and furniture simulator.<br>
+The 3D player module is not React ready so it took several hoops to make it work.
 
 ## Available Scripts
 
